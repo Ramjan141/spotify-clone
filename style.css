@@ -20,6 +20,12 @@ body {
 
 }
 
+@media (max-width:840px){
+    .sidebar{
+        display: none;
+    }
+}
+
 .main-content {
     background-color: #121212;
     flex: 1;
