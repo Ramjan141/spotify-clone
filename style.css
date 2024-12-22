@@ -304,7 +304,7 @@ a {
 
 @media screen and (max-width:395px) {
     .card {
-        width: 160px;
+        width: 105px;
     }
 
     .player-controls {
