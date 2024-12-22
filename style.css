@@ -18,10 +18,11 @@ body {
     border-radius: 1rem;
     margin-right: 0.5rem;
 
+
 }
 
-@media (max-width:840px){
-    .sidebar{
+@media (max-width:840px) {
+    .sidebar {
         display: none;
     }
 }
@@ -190,6 +191,7 @@ a {
 .card:hover {
     box-shadow: 0 2px 8px white;
 }
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -285,4 +287,36 @@ a {
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.current-time,
+.total-time {
+    margin: 0.5rem;
+}
+
+@media (max-width:680px) {
+    .card {
+        width: 110px;
+        /* height: auto; */
+        padding-bottom: 0.2rem;
+    }
+}
+
+@media screen and (max-width:395px) {
+    .card {
+        width: 160px;
+    }
+
+    .player-controls {
+        margin-left: 1.5rem;
+    }
+
+    .current-time,
+    .total-time {
+        margin: 0.5rem;
+    }
+
+    .progress-bar {
+        width: 100px;
+    }
 }
